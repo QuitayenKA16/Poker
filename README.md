@@ -3,11 +3,14 @@ Poker program written in Java, implemented using Java swing API
 
 
 CLASSES
-Card
+###Card
+
+```
 Data Fields:
 - suit
 - value
- 
+```
+
 Constructors:
 - Card (int, int)
  
