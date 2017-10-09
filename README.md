@@ -2,29 +2,39 @@
 Poker program written in Java, implemented using Java swing API
 
 ### Classes
+## Card
 ```
 class Card
 {
  private:
    int suit;
    int value;
- 
- public:
-   Card(int userSuit, int userVal);
-   int getSuit();
-   int getVal();
-   String getString();
-   String getImage(int);
 }
 ```
+## Decks - Contains 52 Card objects of all possible suit/value combinations
 ```
 class Deck
 {
  private:
    Vector<Card> d;
- 
- public:
-   Vector<Card> getDeck();
-   void shuffle();
+}
+```
+## Player
+```
+class Player
+{
+ private:
+   String name;
+   int points;
+   int handTotal;
+   Vector<Card> hand;
+}
+```
+## Dealer - subclass of Player class
+```
+class Player
+{
+ private:
+   Deck d;
 }
 ```
