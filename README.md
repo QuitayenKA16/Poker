@@ -1,8 +1,8 @@
 # Poker
 Poker program written in Java, implemented using Java swing API
 
-### Classes
-## Card
+## Classes
+### Card
 ```
 class Card
 {
@@ -11,7 +11,7 @@ class Card
    int value;
 }
 ```
-## Decks - Contains 52 Card objects of all possible suit/value combinations
+### Decks - Contains 52 Card objects of all possible suit/value combinations
 ```
 class Deck
 {
@@ -19,7 +19,7 @@ class Deck
    Vector<Card> d;
 }
 ```
-## Player
+### Player
 ```
 class Player
 {
@@ -30,7 +30,7 @@ class Player
    Vector<Card> hand;
 }
 ```
-## Dealer - subclass of Player class
+### Dealer - subclass of Player class
 ```
 class Player
 {
