@@ -1,21 +1,19 @@
 # Poker
 Poker program written in Java, implemented using Java swing API
 
-
-CLASSES
-###Card
-
+###Classes
 ```
-Data Fields:
-- int suit
-- intvalue
-
-Constructors:
-- Card (int, int)
+class Card
+{
+ private:
+   int suit;
+   int value;
  
-Accessor Functions:
-- int getSuit()
-- int getVal()
-- String getString()
-- String getImage(int)
+ public:
+   Card(int userSuit, int userVal);
+   int getSuit();
+   int getVal();
+   String getString();
+   String getImage(int);
+}
 ```
