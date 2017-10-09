@@ -2,7 +2,7 @@
 Poker program written in Java, implemented using Java swing API
 
 
- <b> Classes </b>
+ <b> Classes\n</b>
  Card
  Data Fields:
  - suit
