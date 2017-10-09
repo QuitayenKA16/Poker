@@ -7,8 +7,10 @@ Poker program written in Java, implemented using Java swing API
  Data Fields:
  - suit
  - value
+ 
  Constructors:
  - Card (int, int)
+ 
  Accessor Functions:
  - int getSuit()
  - int getVal()
