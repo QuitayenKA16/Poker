@@ -32,7 +32,7 @@ class Player
 ```
 ### Dealer - subclass of Player class
 ```
-class Player
+class Dealer extends Player
 {
  private:
    Deck d;
