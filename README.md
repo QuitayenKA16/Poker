@@ -1,7 +1,7 @@
 # Poker
 Poker program written in Java, implemented using Java swing API
 
-###Classes
+### Classes
 ```
 class Card
 {
@@ -15,5 +15,16 @@ class Card
    int getVal();
    String getString();
    String getImage(int);
+}
+```
+```
+class Deck
+{
+ private:
+   Vector<Card> d;
+ 
+ public:
+   Vector<Card> getDeck();
+   void shuffle();
 }
 ```
