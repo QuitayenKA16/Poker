@@ -7,9 +7,8 @@ CLASSES
 
 ```
 Data Fields:
-- suit
-- value
-```
+- int suit
+- intvalue
 
 Constructors:
 - Card (int, int)
@@ -19,4 +18,4 @@ Accessor Functions:
 - int getVal()
 - String getString()
 - String getImage(int)
- 
+```
